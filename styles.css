@@ -1,0 +1,67 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.hero-section h1,
+.hero-section h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-section {
+  position: relative;
+  background: url("./images/heroback.jpg") center center/cover no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-section h2 {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.skills-hobbies {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.hero img {
+  border: 3px solid #290606;
+  border-radius: 50%;
+}
+
+.skills-hobbies h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #290606;
+}
+
+a {
+  text-decoration: none;
+  color: #831717;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  color: silver;
+  transform: scale(1.1);
+}
